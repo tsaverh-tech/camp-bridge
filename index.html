@@ -27,10 +27,15 @@
     </a>
   </p>
 </div>
-<form id="f" method="post" action="https://www.suseong.kr/camping/guide/reservationGuide.do">
+<form id="f" method="post" action="https://www.suseong.kr/camping/reservation/reservationChoice.do">
   <input type="hidden" name="selectDate" id="selectDate">
   <input type="hidden" name="parmYear" id="parmYear">
   <input type="hidden" name="parmMonth" id="parmMonth">
+  <input type="hidden" name="articleId" value="">
+  <input type="hidden" name="pageIndex" value="1">
+  <input type="hidden" name="pageUnit" value="10">
+  <input type="hidden" name="startDtm" value="">
+  <input type="hidden" name="usePeriod" value="">
 </form>
 <script>
 (function () {
